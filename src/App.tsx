@@ -94,12 +94,8 @@ function App() {
       return qrText;
     } catch (e) {
       console.error("QR Generation Error:", e);
-      return '';
-   Text;
-    } catch (err) {
-      console.error('Error generating QR value:', err);
-      return '';
-    }
+    return '';
+  }
   };
 
   const downloadQR = () => {
